@@ -1,0 +1,24 @@
+# System files
+.DS_Store            # macOS Finder metadata
+Thumbs.db            # Windows thumbnail cache
+
+# IDE files
+.vscode/             # VSCode directory (settings, extensions, etc.)
+.idea/               # JetBrains/IntelliJ IDE files
+
+# Log files
+*.log                # Log files
+
+# Temporary files
+*.bak                # Backup files
+*.swp                # Vim swap files
+
+# Environment variables
+.env                 # .env file (if using any environment variables in the future)
+
+# Build directories (in case you use any build tools in the future)
+dist/                # Distribution directory (if you build your project with any build tool)
+build/               # Build output directory (for any static file generators)
+
+# Node modules (if you ever start using Node.js)
+node_modules/        # Node.js packages directory
